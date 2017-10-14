@@ -1,0 +1,6 @@
+[ 2017-10-14T20:36:28+08:00 ] ::1 /lottery/
+ERR: SQLSTATE[HY000] [1049] Unknown database 'fore'
+
+[ 2017-10-14T20:38:38+08:00 ] ::1 /lottery/themes/simplebootx//public/assets/css/reset.css
+ERR: 无法加载控制器:Themes
+

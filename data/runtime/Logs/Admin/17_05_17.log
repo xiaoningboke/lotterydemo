@@ -1,0 +1,7 @@
+[ 2017-05-17T12:11:31+08:00 ] ::1 /fore/index.php?g=admin&m=public&a=login
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2017-05-17T15:18:50+08:00 ] ::1 /fore/index.php?g=admin&m=public&a=login
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+

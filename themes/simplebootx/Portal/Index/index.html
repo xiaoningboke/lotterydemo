@@ -1,0 +1,37 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta content="" name="Keywords">
+<meta content="" name="Description">
+<title>News</title>
+<link type="text/css" rel="stylesheet" href="__TMPL__/public/assets/css/base.css">
+</head>
+<body>
+
+<div class="wp" id="header" style="text-align:center;">
+<img src="__TMPL__/public/assets/images/1_01.png" style="width: 100%">
+<div class="head_1 head_2" style="width:202px;height:125px;margin:0 auto;">
+</div>
+</div>
+<div id="content">
+<div class="content_a">
+<div class="content_1_jiao content_1_1"></div>
+<div class="content_1_jiao content_1_2"></div>
+<div class="content_1_jiao content_1_3"></div>
+<div class="content_1_jiao content_1_4"></div>
+<div id="show2">
+<div class="content_2" style="font-size:18px; text-align:center; color:#00F" >
+<volist name="data" id="vo">
+{$vo.number} &nbsp
+</volist>
+</div>
+</div>
+</div>
+<div class="wp" id="footer">
+<volist name="name" id="vo">
+<p class="footer_a">{$vo.word}</p>
+</volist>
+</div>
+</body>
+</html>

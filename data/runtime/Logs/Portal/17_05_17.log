@@ -1,0 +1,95 @@
+[ 2017-05-17T12:11:35+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2017-05-17T12:11:55+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2017-05-17T12:12:08+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2017-05-17T12:12:32+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2017-05-17T12:13:13+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2017-05-17T12:14:29+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2017-05-17T13:37:41+08:00 ] ::1 /fore/index.php
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'a0515144747'@'localhost' (using password: YES)
+
+[ 2017-05-17T15:10:51+08:00 ] ::1 /fore/themes/simplebootx//public/assets/css/reset.css
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Themes
+
+[ 2017-05-17T15:18:18+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T15:18:47+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T15:48:57+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T15:49:52+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T16:07:23+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [1130] Host '123.133.67.90' is not allowed to connect to this MySQL server
+
+[ 2017-05-17T16:07:40+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [1130] Host '123.133.67.90' is not allowed to connect to this MySQL server
+
+[ 2017-05-17T16:08:06+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [1130] Host '123.133.67.90' is not allowed to connect to this MySQL server
+
+[ 2017-05-17T16:11:12+08:00 ] ::1 /fore/
+ERR: 1146:Table 'sq_shopdan.cmf_number' doesn't exist
+ [ SQLè¯­å¥ ] : SHOW COLUMNS FROM `cmf_number`
+
+[ 2017-05-17T16:11:20+08:00 ] ::1 /fore/
+ERR: 1146:Table 'sq_shopdan.cmf_number' doesn't exist
+ [ SQLè¯­å¥ ] : SHOW COLUMNS FROM `cmf_number`
+
+[ 2017-05-17T16:11:35+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T16:12:01+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T16:15:55+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T16:17:04+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T16:18:47+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T16:20:40+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T16:25:04+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T16:26:20+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T17:12:47+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T17:13:15+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T18:42:45+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2017-05-17T19:16:10+08:00 ] ::1 /fore/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+

@@ -1,0 +1,358 @@
+[ 2017-05-16T22:20:32+08:00 ] ::1 /fore/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001728s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003742s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002188s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002238s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-16T22:20:50+08:00 ] ::1 /fore/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001737s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003660s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002125s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002165s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_role_user` [ RunTime:0.0058s ]
+SQL: SELECT `role_id` FROM cmf_role_user a INNER JOIN cmf_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0009s ]
+SQL: UPDATE `cmf_users` SET `user_login`='admin',`user_pass`='###84bbb952574b1ab362c5634385d2d839',`user_nicename`='admin',`user_email`='1@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`='2000-01-01',`signature`=NULL,`last_login_ip`='0.0.0.0',`last_login_time`='2017-05-16 22:20:50',`create_time`='2017-05-15 05:31:44',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0005s ]
+
+[ 2017-05-16T22:26:50+08:00 ] ::1 /fore/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001967s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004016s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002651s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002693s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'Admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_role_user` [ RunTime:0.0043s ]
+SQL: SELECT `role_id` FROM cmf_role_user a INNER JOIN cmf_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0003s ]
+SQL: UPDATE `cmf_users` SET `user_login`='admin',`user_pass`='###84bbb952574b1ab362c5634385d2d839',`user_nicename`='admin',`user_email`='1@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`='2000-01-01',`signature`=NULL,`last_login_ip`='0.0.0.0',`last_login_time`='2017-05-16 22:26:50',`create_time`='2017-05-15 05:31:44',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0003s ]
+
+[ 2017-05-16T22:29:31+08:00 ] ::1 /fore/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002175s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004254s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002491s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002528s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'Admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_role_user` [ RunTime:0.0043s ]
+SQL: SELECT `role_id` FROM cmf_role_user a INNER JOIN cmf_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0003s ]
+SQL: UPDATE `cmf_users` SET `user_login`='admin',`user_pass`='###84bbb952574b1ab362c5634385d2d839',`user_nicename`='admin',`user_email`='1@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`='2000-01-01',`signature`=NULL,`last_login_ip`='0.0.0.0',`last_login_time`='2017-05-16 22:29:31',`create_time`='2017-05-15 05:31:44',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0003s ]
+
+[ 2017-05-16T22:30:36+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:30:42+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=39&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:30:46+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002698s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002951s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007064s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002660s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002697s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0047s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Admin' AND `model` = 'Extension' AND `action` = 'default' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='0',`name`='扩展工具',`app`='Admin',`model`='Extension',`action`='default',`data`='',`icon`='cloud',`remark`='',`status`='0',`type`='0' WHERE `id` = 39 [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'admin/extension/default' LIMIT 1   [ RunTime:0.0248s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='admin/extension/default',`module`='Admin',`type`='admin_url',`title`='扩展工具' WHERE `name` = 'admin/extension/default' [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Admin' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0012s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\WWW\fore\application\Admin\Controller\MenuController.class.php 第 247 行.
+
+[ 2017-05-16T22:30:47+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=39&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:30:50+08:00 ] ::1 /fore/index.php?g=Admin&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:30:56+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=1&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:30:59+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002306s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004105s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003751s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003802s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0048s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Admin' AND `model` = 'Content' AND `action` = 'default' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='0',`name`='内容管理',`app`='Admin',`model`='Content',`action`='default',`data`='',`icon`='th',`remark`='',`status`='0',`type`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'admin/content/default' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='admin/content/default',`module`='Admin',`type`='admin_url',`title`='内容管理' WHERE `name` = 'admin/content/default' [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Admin' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0011s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\WWW\fore\application\Admin\Controller\MenuController.class.php 第 247 行.
+
+[ 2017-05-16T22:31:00+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=1&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:31:02+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:31:09+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=132&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:31:14+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002232s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005328s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002312s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002356s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0056s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 132 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'User' AND `model` = 'Indexadmin' AND `action` = 'default' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='0',`name`='用户管理',`app`='User',`model`='Indexadmin',`action`='default',`data`='',`icon`='group',`remark`='',`status`='0',`type`='1' WHERE `id` = 132 [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'user/indexadmin/default' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='user/indexadmin/default',`module`='User',`type`='admin_url',`title`='用户管理' WHERE `name` = 'user/indexadmin/default' [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'User' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0003s ]
+
+[ 2017-05-16T22:31:15+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=132&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:31:58+08:00 ] ::1 /fore/index.php?g=Admin&m=User&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002401s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005602s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.004396s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.004484s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `cmf_role` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'Zero' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_email` = '1@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-16T22:32:07+08:00 ] ::1 /fore/index.php?g=Admin&m=User&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002232s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004308s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003614s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003694s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `cmf_role` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'Zero' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_email` = '12@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_users` (`user_login`,`user_pass`,`user_email`,`create_time`) VALUES ('Zero','###bd20b8402b8a55eb86fd411c79eff7b6','12@qq.com','2017-05-16 22:32:07') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_role_user` [ RunTime:0.0059s ]
+SQL: INSERT INTO `cmf_role_user` (`role_id`,`user_id`) VALUES ('1','2') [ RunTime:0.0004s ]
+
+[ 2017-05-16T22:32:14+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:32:21+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=85&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:32:26+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002119s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004086s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003325s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003412s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0055s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 85 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'default' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='0',`name`='菜单管理',`app`='Admin',`model`='Menu',`action`='default',`data`='',`icon`='list',`remark`='',`status`='0',`type`='1' WHERE `id` = 85 [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'admin/menu/default' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='admin/menu/default',`module`='Admin',`type`='admin_url',`title`='菜单管理' WHERE `name` = 'admin/menu/default' [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Admin' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0011s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\WWW\fore\application\Admin\Controller\MenuController.class.php 第 247 行.
+
+[ 2017-05-16T22:32:27+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=85&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:32:30+08:00 ] ::1 /fore/index.php?g=Admin&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:32:36+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=115&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:32:40+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003033s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005353s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002914s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002957s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0051s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 115 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Admin' AND `model` = 'Setting' AND `action` = 'site' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='109',`name`='网站信息',`app`='Admin',`model`='Setting',`action`='site',`data`='',`icon`='',`remark`='',`status`='0',`type`='1' WHERE `id` = 115 [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'admin/setting/site' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='admin/setting/site',`module`='Admin',`type`='admin_url',`title`='网站信息' WHERE `name` = 'admin/setting/site' [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Admin' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0011s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\WWW\fore\application\Admin\Controller\MenuController.class.php 第 247 行.
+
+[ 2017-05-16T22:32:41+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=115&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:32:45+08:00 ] ::1 /fore/index.php?g=Admin&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:32:54+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=126&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:32:58+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002146s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004126s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002707s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002755s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0046s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 126 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Admin' AND `model` = 'Mailer' AND `action` = 'default' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='109',`name`='邮箱配置',`app`='Admin',`model`='Mailer',`action`='default',`data`='',`icon`='',`remark`='',`status`='0',`type`='1' WHERE `id` = 126 [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'admin/mailer/default' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='admin/mailer/default',`module`='Admin',`type`='admin_url',`title`='邮箱配置' WHERE `name` = 'admin/mailer/default' [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Admin' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0010s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\WWW\fore\application\Admin\Controller\MenuController.class.php 第 247 行.
+
+[ 2017-05-16T22:32:59+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=126&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:33:02+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:33:13+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=156&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:33:19+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002080s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004105s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002285s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002319s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0049s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 156 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Admin' AND `model` = 'Storage' AND `action` = 'index' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='109',`name`='文件存储',`app`='Admin',`model`='Storage',`action`='index',`data`='',`icon`='',`remark`='',`status`='0',`type`='1' WHERE `id` = 156 [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'admin/storage/index' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='admin/storage/index',`module`='Admin',`type`='admin_url',`title`='文件存储' WHERE `name` = 'admin/storage/index' [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Admin' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0010s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\WWW\fore\application\Admin\Controller\MenuController.class.php 第 247 行.
+
+[ 2017-05-16T22:33:20+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=156&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:33:23+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:33:27+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=167&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-16T22:33:31+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002075s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003779s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002451s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002834s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0050s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 167 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Admin' AND `model` = 'Setting' AND `action` = 'upload' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\fore\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='109',`name`='上传设置',`app`='Admin',`model`='Setting',`action`='upload',`data`='',`icon`='',`remark`='',`status`='0',`type`='1' WHERE `id` = 167 [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'admin/setting/upload' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='admin/setting/upload',`module`='Admin',`type`='admin_url',`title`='上传设置' WHERE `name` = 'admin/setting/upload' [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Admin' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0011s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\WWW\fore\application\Admin\Controller\MenuController.class.php 第 247 行.
+
+[ 2017-05-16T22:33:32+08:00 ] ::1 /fore/index.php?g=Admin&m=Menu&a=edit&id=167&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
